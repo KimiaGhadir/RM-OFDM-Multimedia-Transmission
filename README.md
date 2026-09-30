@@ -40,35 +40,6 @@ It includes complete pipelines for image and video transmission, packet generati
 
 ---
 
-## Project Structure
-
-RM-OFDM-Multimedia-Transmission/
-|
-|-- image/
-|   |-- image_radio_ui.py
-|   |-- rx_ran_ofdm.py
-|   `-- ...
-|
-|-- video/
-|   |-- ui.py
-|   |-- Ran_ofdm.py
-|   |-- prepare_and_run.sh
-|   |-- prepare_video_packets.py
-|   |-- run_video_until_complete.py
-|   `-- ...
-|
-|-- custom_module/
-|   |-- ber_cal.py
-|   |-- data_separation.py
-|   |-- OAMP_Equalizer.py
-|   |-- Random_Modulation.py
-|   |-- video_receiver.py
-|   `-- ...
-|
-`-- README.md
-
----
-
 ## Image Transmission
 
 The image transmission pipeline supports RM, OFDM, and combined RM/OFDM transmission.
